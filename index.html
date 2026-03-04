@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Events of 2026</title>
+</head>
+
+<body>
+     <h1>Hack Club event 2026</h1>
+    <p><strong>Date:</strong> 3 / 3 / 2026</p>
+    <p><strong>Location:</strong> STEM Gharbiya School</p>
+
+    <h2>About the event</h2>
+   <details>
+  <summary>Details</summary>
+  We will teach you how to make a website by using HTML and Javascript,
+     We have a very intersting challenge at the end of the event,do you want to know it,<mark>THEN COME AND JOIN US.</mark>
+</details>
+
+    <h2>Schedule</h2>
+    <table>
+    <tr>
+        <th>Event</th>
+        <th>Time</th>
+    </tr>
+    <tr>
+        <td>Speaker 1</td>
+        <td>10:00 Pm</td>
+    </tr>
+    <tr>
+        <td>Speaker 2</td>
+        <td>10:30 Pm</td>
+    </tr>
+ <tr>
+        <td>Break</td>
+        <td>11:00 Pm</td>
+    </tr>
+     <tr>
+        <td>Workshop</td>
+        <td>11:10 Pm</td>
+         <tr>
+        <td>End</td>
+        <td>12:00 Am</td>
+    </tr>
+</table>
+        <h2>Register Now</h2>
+        <form onsubmit="event.preventDefault(); myfunction()">
+            <label for="input1">user-name:</label>
+            <input type="text" id="name" name="input1" required>
+            <label for="input2">mail:</label>
+            <input type="email" id="email" name="input2" required>
+            <button type="submit">Submit</button>
+     </form>
+<p id="message"></p>
+    <script>
+    function myfunction() {const name = document.getElementById("name").value;
+            const email = document.getElementById("email").value;
+            let message = document.getElementById("message");
+
+            alert("successful");
+            message.textContent = "Registration successful!";
+        }
+</script>
+</body>
+
+</html>
